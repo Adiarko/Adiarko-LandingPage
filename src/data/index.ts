@@ -1,92 +1,137 @@
-import { title } from "process";
+export const articles = [
+  {
+    id: "digital-marketing",
+    title: "Digital Marketing",
+    image: "/digital_marketing_photo.jpg",
+    content: "lorem12",
+  },
+  {
+    id: "digital-academy",
+    title: "Digital Academy",
+    image: "/digital_academy_photo.jpg",
+    content: "lorem12",
+  },
+];
 
 export const portfolio = [
   {
-    id: 1,
-    image: "/port_pict_1.png",
-    badge_title: "Website",
-    title: "E-commerce Platform for Toko Hijau",
-    description:
-      "Pengembangan platform e-commerce yang memudahkan penjualan produk ramah lingkungan.",
+    tabs_id: 1,
+    value: "marketing",
+    label: "Marketing",
+    contents: [
+      {
+        id: 1,
+        image: "/port_pict_1.png",
+        badge_title: "Website",
+        title: "E-commerce Platform for Toko Hijau",
+        description:
+          "Pengembangan platform e-commerce yang memudahkan penjualan produk ramah lingkungan.",
+      },
+      {
+        id: 2,
+        image: "/port_pict_2.png",
+        badge_title: "Website",
+        title: "Mobile App for Fitness Tracker",
+        description:
+          "Aplikasi pelacakan kebugaran yang user-friendly untuk pengguna iOS dan Android.",
+      },
+      {
+        id: 3,
+        image: "/port_pict_3.png",
+        badge_title: "Website",
+        title: "IoT Solution for Smart Farming",
+        description:
+          "Implementasi solusi IoT untuk meningkatkan produktivitas dan efisiensi dalam sektor pertanian.",
+      },
+    ],
   },
   {
-    id: 2,
-    image: "/port_pict_2.png",
-    badge_title: "Website",
-    title: "Mobile App for Fitness Tracker",
-    description:
-      "Aplikasi pelacakan kebugaran yang user-friendly untuk pengguna iOS dan Android.",
-  },
-  {
-    id: 3,
-    image: "/port_pict_3.png",
-    badge_title: "Website",
-    title: "IoT Solution for Smart Farming",
-    description:
-      "Implementasi solusi IoT untuk meningkatkan produktivitas dan efisiensi dalam sektor pertanian.",
-  },
-  {
-    id: 4,
-    image: "/port_pict_4.png",
-    badge_title: "Website",
-    title: "E-commerce Platform for Toko Hijau",
-    description:
-      "Pengembangan platform e-commerce yang memudahkan penjualan produk ramah lingkungan.",
-  },
-  {
-    id: 5,
-    image: "/port_pict_5.png",
-    badge_title: "Website",
-    title: "Mobile App for Fitness Tracker",
-    description:
-      "Aplikasi pelacakan kebugaran yang user-friendly untuk pengguna iOS dan Android.",
-  },
-  {
-    id: 6,
-    image: "/port_pict_6.png",
-    badge_title: "Website",
-    title: "IoT Solution for Smart Farming",
-    description:
-      "Implementasi solusi IoT untuk meningkatkan produktivitas dan efisiensi dalam sektor pertanian.",
+    tabs_id: 2,
+    value: "academy",
+    label: "Academy",
+    contents: [
+      {
+        id: 4,
+        image: "/port_pict_4.png",
+        badge_title: "Website",
+        title: "E-commerce Platform for Toko Hijau",
+        description:
+          "Pengembangan platform e-commerce yang memudahkan penjualan produk ramah lingkungan.",
+      },
+      {
+        id: 5,
+        image: "/port_pict_5.png",
+        badge_title: "Website",
+        title: "Mobile App for Fitness Tracker",
+        description:
+          "Aplikasi pelacakan kebugaran yang user-friendly untuk pengguna iOS dan Android.",
+      },
+      {
+        id: 6,
+        image: "/port_pict_6.png",
+        badge_title: "Website",
+        title: "IoT Solution for Smart Farming",
+        description:
+          "Implementasi solusi IoT untuk meningkatkan produktivitas dan efisiensi dalam sektor pertanian.",
+      },
+    ],
   },
 ];
 
 export const chooseUs = [
   {
     id: 1,
+    whiteImage: "/book_bookmark_white.png",
+    blackImage: "/book_bookmark_black.png",
+    alt: "icon_bookmark",
     title: "Study Case Based",
     description:
-      "Semua solusi yang kami tawarkan didasarkan pada studi kasus nyata, memastikan relevansi dan efektivitas.",
+      "All the solutions we offer are based on real case studies, ensuring relevance and effectiveness.",
   },
   {
     id: 2,
+    whiteImage: "/chalkboard_white.png",
+    blackImage: "/chalkboard_black.png",
+    alt: "icon_chalkboard",
     title: "Well Experienced",
     description:
-      "Tim kami terdiri dari profesional berpengalaman di bidang teknologi dan digital marketing, siap membantu Anda mencapai tujuan bisnis.",
+      "Our team consists of experienced professionals in technology and digital marketing, ready to help you achieve your business goals.",
   },
   {
     id: 3,
+    whiteImage: "/chats_white.png",
+    blackImage: "/chats_black.png",
+    alt: "icon_chats",
     title: "Custom Solutions",
     description:
-      "Kami menyediakan solusi yang disesuaikan dengan kebutuhan spesifik setiap klien, untuk hasil yang optimal.",
+      "We provide solutions tailored to the specific needs of each client for optimal results.",
   },
   {
     id: 4,
+    whiteImage: "/calendar_white.png",
+    blackImage: "/calendar_black.png",
+    alt: "icon_calendar",
     title: "Proven Track Record",
     description:
-      "Kami memiliki rekam jejak yang terbukti dalam membantu berbagai perusahaan dan UMKM mencapai kesuksesan melalui digitalisasi.",
+      "We have a proven track record of helping various companies and SMEs achieve success through digitalization.",
   },
   {
     id: 5,
+    whiteImage: "/card_white.png",
+    blackImage: "/card_black.png",
+    alt: "icon_card",
     title: "Continuous Support",
     description:
-      "Kami menyediakan dukungan berkelanjutan untuk memastikan implementasi solusi berjalan lancar dan memberikan hasil yang diharapkan.",
+      "We provide ongoing support to ensure smooth implementation of solutions and deliver the expected results.",
   },
   {
     id: 6,
+    whiteImage: "/art_white.png",
+    blackImage: "/art_black.png",
+    alt: "icon_art",
     title: "Innovation Driven",
     description:
-      "Kami selalu berinovasi dengan menggunakan teknologi terbaru untuk memberikan solusi yang paling up-to-date dan efektif bagi klien kami.",
+      "We continually innovate by using the latest technology to provide the most up-to-date and effective solutions for our clients.",
   },
 ];
 
@@ -173,50 +218,58 @@ export const blog = [
 export const oprec = [
   {
     id: 1,
-    title: "Grapic Designer",
-    type: "Full Time",
-    position: 2,
+    title: "Graphic Designer",
+    type: "Internship",
+    position: "-",
     jobdesc:
-      "Lorem ipsum dolor sit amet consectetur. Elit eget sagittis sit varius. Nibh ullamcorper sed in cras quis. Quam fringilla pharetra pellentesque sollicitudin facilisis. Urna ut sit at sollicitudin elit sagittis eros amet nulla. Amet at ultrices condimentum nibh. ",
+      "By meeting these criteria, you will have the opportunity to learn and grow with our creative team. Send your resume to [hi@adiarko.co.id].",
     requirements: [
-      "Sehat",
-      "Waras",
-      "Gender terbatas untuk Laki - laki dan perempuan",
-      "Tidak atheis",
-      "Jujur",
-      "Mau belajar",
+      "Student or Recent Graduate",
+      "Open to active students or recent graduates majoring in Graphic Design or related fields. (Design Skills)",
+      "Possess basic skills in graphic design and knowledge of software such as Adobe Illustrator and Photoshop. (Portfolio)",
+      "Include a portfolio showcasing previous design work. (Creativity and Innovation)",
+      "Able to think creatively and innovatively to produce attractive designs. (Communication Skills)",
+      "Able to communicate well for collaboration with the team.",
     ],
   },
   {
     id: 2,
-    title: "Customer Service",
-    type: "Full Time",
-    position: 5,
+    title: "Administration",
+    type: "Internship",
+    position: "-",
     jobdesc:
-      "Lorem ipsum dolor sit amet consectetur. Elit eget sagittis sit varius. Nibh ullamcorper sed in cras quis. Quam fringilla pharetra pellentesque sollicitudin facilisis. Urna ut sit at sollicitudin elit sagittis eros amet nulla. Amet at ultrices condimentum nibh. ",
+      "By meeting these criteria, you will have the opportunity to learn and grow with our creative team. Send your resume to [hi@adiarko.co.id].",
     requirements: [
-      "Sehat",
-      "Waras",
-      "Gender terbatas untuk Laki - laki dan perempuan",
-      "Tidak atheis",
-      "Jujur",
-      "Mau belajar",
+      "Student or Recent Graduate",
+      "Open to active students or recent graduates majoring in Business Administration, Office Management, or related fields. (Organizational Skills)",
+      "Strong organizational skills and attention to detail for handling multiple tasks efficiently. (Computer Proficiency)",
+      "Proficient in Microsoft Office Suite (Word, Excel, PowerPoint) and basic knowledge of office equipment. (Communication Skills)",
+      "Excellent written and verbal communication skills for effective interaction with team members and clients. (Time Management)",
+      "Ability to manage time effectively and prioritize tasks to meet deadlines. (Problem-Solving Skills)",
+      "Capable of identifying issues and providing practical solutions in a timely manner. (Team Player)",
+      "Ability to work collaboratively in a team environment and assist colleagues when needed. (Professionalism)",
+      "Maintain a professional demeanor and exhibit strong work ethics in all situations.",
     ],
   },
   {
     id: 3,
-    title: "Video Editor",
-    type: "Part Time",
-    position: 3,
+    title: "Social Media Admin",
+    type: "Full Time",
+    position: 1,
     jobdesc:
-      "Lorem ipsum dolor sit amet consectetur. Elit eget sagittis sit varius. Nibh ullamcorper sed in cras quis. Quam fringilla pharetra pellentesque sollicitudin facilisis. Urna ut sit at sollicitudin elit sagittis eros amet nulla. Amet at ultrices condimentum nibh. ",
+      "By meeting these criteria, you will have the opportunity to learn and grow with our creative team. Send your resume to [hi@adiarko.co.id].",
     requirements: [
-      "Sehat",
-      "Waras",
-      "Gender terbatas untuk Laki - laki dan perempuan",
-      "Tidak atheis",
-      "Jujur",
-      "Mau belajar",
+      "Experience in Social Media Management",
+      "Proven experience managing social media accounts for businesses or organizations. (Content Creation Skills)",
+      "Strong skills in creating engaging and visually appealing content, including graphics, videos, and written posts. (Knowledge of Social Media Platforms)",
+      "In-depth understanding of various social media platforms (Facebook, Instagram, Twitter, LinkedIn, TikTok, etc.) and their best practices. (Analytics and Reporting)",
+      "Ability to analyze social media metrics and generate reports to measure the effectiveness of campaigns and strategies. (Communication Skills)",
+      "Excellent written and verbal communication skills for crafting compelling posts and engaging with the audience. (Creativity and Innovation)",
+      "Creative mindset with the ability to develop innovative ideas for social media campaigns and content. (Time Management)",
+      "Strong time management and organizational skills to handle multiple tasks and meet deadlines. (Customer Service Orientation)",
+      "Ability to respond to comments, messages, and inquiries in a timely and professional manner. (Team Collaboration)",
+      "Ability to work collaboratively with marketing, design, and other teams to align social media efforts with overall business goals.(Staying Updated)",
+      "Stay current with the latest social media trends, tools, and best practices to ensure the company’s social media presence remains relevant and effective.",
     ],
   },
 ];

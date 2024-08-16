@@ -5,7 +5,7 @@ const CountProjects = () => {
     <div className="flex gap-14 md:gap-40 lg:gap-60 xl:gap-80 justify-center">
       <div className="flex-col">
         <p className="font-bold text-xl md:text-4xl">
-          300
+          1000
           <span className="text-[#FEC03C] align-super font-bold text-2xl md:text-[42px]">
             +
           </span>
@@ -27,7 +27,7 @@ const CountProjects = () => {
       </div>
       <div className="flex-col">
         <p className="font-bold text-xl md:text-4xl">
-          10
+          4
           <span className="text-[#169AFD] align-super font-bold text-2xl md:text-[42px]">
             +
           </span>
