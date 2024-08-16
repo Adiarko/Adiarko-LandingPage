@@ -17,7 +17,7 @@ const Portfolio = () => {
           <span className=" relative z-10 font-extrabold"> Project</span>
           <img
             src="/highlight_brand.png"
-            className="absolute z-0 bottom-0 right-0 h-4 w-20 translate-y-0 -translate-x-24 md:-translate-x-48 md:h-5 md:w-32 lg:-translate-x-56 xl:-translate-x-44 2xl:-translate-x-40"
+            className="absolute z-0 bottom-0 right-0 h-4 w-20 translate-y-0 -translate-x-24 md:-translate-x-48 md:h-5 md:w-32 lg:-translate-x-40 xl:-translate-x-44 2xl:-translate-x-40"
             alt=""
           />
         </h1>

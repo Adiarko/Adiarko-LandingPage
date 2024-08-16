@@ -8,43 +8,47 @@ const Brand = () => {
     <section className="w-full container pb-24 flex flex-col place-content-center gap-12 md:gap-16 lg:h-dvh">
       <div className="grid lg:grid-rows-none lg:grid-cols-5 xl:grid-cols-3 md:gap-8">
         <div className="hidden lg:grid lg:relative lg:col-span-3 xl:col-span-2">
-          <img src="/union.png" className="w-[60%] mx-auto mt-auto" alt="" />
+          <img
+            src="/union.png"
+            className="w-[80%] xl:w-[60%] mx-auto mt-auto"
+            alt=""
+          />
           <img
             src="/vector_6.png"
-            className="absolute translate-x-28 translate-y-10 z-10 h-[85%]"
+            className="absolute translate-x-0 xl:translate-x-28 translate-y-10 z-10 h-[85%]"
             alt=""
           />
           <img
             src="/ellipse_7.png"
-            className="absolute translate-x-48 translate-y-10 z-20 h-[4%]"
+            className="absolute translate-x-20 xl:translate-x-48 translate-y-10 z-20 h-[4%]"
             alt=""
           />
           <img
             src="/ellipse_8.png"
-            className="absolute right-44 top-48 z-20 h-[4%]"
+            className="absolute xl:right-44 top-48 z-20 h-[4%]"
             alt=""
           />
           <img
             src="/love_91k.png"
-            className="absolute translate-x-28 translate-y-32 z-20 h-[15%]"
+            className="absolute translate-x-5 xl:translate-x-28 translate-y-32 z-20 h-[15%]"
             alt=""
           />
           <img
             src="/like_99k.png"
-            className="absolute right-0 -translate-x-28 translate-y-80 z-30 h-[15%]"
+            className="absolute right-0 -translate-x-5 xl:-translate-x-28 translate-y-80 z-30 h-[15%]"
             alt=""
           />
           <img
             src="/note.png"
-            className="absolute right-0 -translate-x-52 translate-y-52 z-40 h-[45%]"
+            className="absolute right-0 -translate-x-28 xl:-translate-x-48 translate-y-52 z-40 h-[45%]"
             alt=""
           />
-          <div className="p-2 rounded-md shadow-md bg-white/50 absolute bottom-0 translate-x-56 -translate-y-8 z-30">
+          <div className="p-2 rounded-md shadow-md bg-white/50 absolute bottom-0 translate-x-40 xl:translate-x-56 -translate-y-8 z-30">
             <img src="/instagram_logo.png" className="w-10" alt="" />
           </div>
           <img
             src="/icon_people.png"
-            className="absolute translate-x-48 z-20 h-full"
+            className="absolute translate-x-20 xl:translate-x-48 z-20 h-full"
             alt=""
           />
         </div>
