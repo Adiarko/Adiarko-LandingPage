@@ -1,43 +1,52 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import {
   Card,
   CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "./ui/card";
+import Image from "next/image";
 
 interface Choose {
   title: string;
   description: string;
+  whiteImage: string;
+  blackImage: string;
+  alt: string;
 }
 
 const CardChoose = (props: Choose) => {
-  const { title, description } = props;
+  const { title, description, whiteImage, blackImage, alt } = props;
+  const [isHovered, setIsHovered] = useState(false);
 
   return (
     <div className="w-full flex">
-      <Card className="flex flex-col rounded-2xl border-0 bg-[#141414] group transition ease-in-out duration-300 hover:bg-yellow-400">
+      <Card
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+        className="flex flex-col rounded-2xl border-0 bg-[#141414] group transition ease-in-out duration-300 hover:bg-yellow-400"
+      >
         <CardHeader className="flex">
           <div className="flex gap-4 ">
-            <img src="/book_bookmark.png" className="w-8" alt="" />
-            <CardTitle className="my-auto text-white text-lg font-semibold group-hover:text-black">
+            <Image
+              src={isHovered ? blackImage : whiteImage}
+              width={32}
+              height={32}
+              className="transition-opacity duration-300"
+              alt={alt}
+            />
+            <CardTitle className="my-auto text-white font-semibold text-base md:text-lg group-hover:text-black">
               {title}
             </CardTitle>
           </div>
         </CardHeader>
-        <CardContent className="flex-col grow space-y-4">
-          <CardDescription className="text-xs text-white text-wrap group-hover:text-black">
+        <CardContent className="flex-col space-y-4">
+          <CardDescription className="text-white text-wrap text-[10px] md:text-xs group-hover:text-black">
             {description}
           </CardDescription>
         </CardContent>
-        <CardFooter className="flex">
-          <div className="flex gap-4 cursor-pointer text-white text-xs group-hover:text-black">
-            <p>See more</p>
-            <span>&#x1F872;</span>
-          </div>
-        </CardFooter>
       </Card>
     </div>
   );

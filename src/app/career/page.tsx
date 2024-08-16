@@ -19,113 +19,111 @@ const Career = () => {
             <span className="font-bold text-xl">Adiarko</span>
           </Link>
           <div className="flex pb-8">
-            <h1 className="text-5xl text-center text-wrap font-bold mx-auto leading-snug w-[75%]">
+            <h1 className="text-center text-wrap font-bold mx-auto text-3xl w-full md:leading-snug md:text-4xl lg:leading-snug lg:text-5xl xl:w-[75%]">
               Explore Exciting Career & Internship{" "}
               <span className="text-[#FFC93E]"> Opportunities </span>with Us
             </h1>
           </div>
-          <div className="grid grid-cols-2 gap-8 pb-8">
-            <div className="flex p-8">
+          <div className="grid gap-4 pb-4 md:gap-8 md:pb-8 md:grid-cols-2">
+            <div className="flex p-6 lg:p-8">
               <img
-                src="/career_pict.png"
-                className="h-full w-full object-contain"
+                src="/4WRN7695.JPG"
+                className="h-full w-full object-contain rounded-2xl"
                 alt=""
               />
             </div>
             <div className="flex flex-col gap-4 p-4 my-auto">
-              <h1 className="text-4xl font-semibold">
+              <h1 className="font-semibold text-2xl md:text-3xl lg:text-4xl">
                 Diversity, Equity & Inclusion
               </h1>
-              <p className="text-sm text-[#A6A6A6] text-balance">
-                Aenean neque egestas urna. Elit etiam tincidunt lorem sit augue
-                arcu sed. Feugiat ut arcu mollis aliquet felis sagittis vitae.
-                Non est egestas purus ac laoreet aliquet facilisis. Lobortis
-                interdum sed nisi at sed ac. Eu tempus tortor eget lectus sed
-                non ultricies vel.Cras orci ornare tristique laoreet id nunc
-                lectus turpis. Orci adipiscing laoreet donec malesuada pharetra
-                vitae faucibus. Neque amet non bibendum amet eget elementum vel
-                pretium aenean. Rhoncus donec tristique aenean diam at. Euismod
-                dolor metus augue non sed feugiat. In dui ultrices pellentesque
-                eget morbi aliquam placerat mattis. Rhoncus nulla urna pretium
+              <p className="text-[#A6A6A6] text-balance text-justify text-[10px] md:text-xs lg:text-sm">
+                At the core of our organization is a commitment to Diversity,
+                Equity, and Inclusion (DEI). We believe embracing diverse
+                perspectives fosters innovation and belonging. Our goal is to
+                create an environment where everyone feels valued, respected,
+                and heard, ensuring equal opportunities for all. Inclusion is a
+                guiding principle, and we are dedicated to building a community
+                where differences are celebrated, and everyone can contribute to
+                our collective success.
               </p>
             </div>
           </div>
           <div className="flex flex-col text-center pb-8">
-            <h1 className="text-5xl  text-wrap font-bold mx-auto leading-snug w-[35%]">
+            <h1 className="text-wrap font-bold mx-auto text-3xl w-[95%] md:text-4xl md:leading-snug md:w-[35%] lg:text-5xl lg:leading-snug">
               Interest in our Mission?
             </h1>
-            <p className="text-sm text-[#A6A6A6]">
-              eget morbi aliquam placerat mattis. Rhoncus nulla urna pretium
+            <p className="text-[#A6A6A6] text-[10px] md:text-xs lg:text-sm">
+              Join us to create a positive impact through collaboration and
+              innovation.
             </p>
           </div>
-          <div className="grid grid-cols-3 pb-8">
+          <div className="grid pb-14 gap-8 md:grid-cols-3 md:gap-0">
             <div className="flex flex-col mx-auto text-center gap-4">
               <div className="flex mx-auto">
-                <span className="p-4 bg-[#DDDFF4] w-24 rounded-full">
+                <span className="p-4 bg-[#DDDFF4] rounded-full w-16 md:w-24">
                   <img src="envelope.png" className="flex" alt="" />
                 </span>
               </div>
-              <h2 className="font-medium text-xl">We put people first</h2>
+              <h2 className="font-medium text-base md:text-xl">
+                We put people first
+              </h2>
               <p className="text-xs text-wrap w-[65%] mx-auto text-[#A6A6A6]">
-                eget morbi aliquam placerat mattis. Rhoncus nulla urna pretium
+                We believe that by fostering a supportive and inclusive
+                environment, we can help everyone thrive.
               </p>
             </div>
             <div className="flex flex-col mx-auto text-center gap-4">
               <div className="flex mx-auto">
-                <span className="p-4 bg-[#DDDFF4] w-24 rounded-full">
+                <span className="p-4 bg-[#DDDFF4] rounded-full w-16 md:w-24">
                   <img src="envelope.png" className="flex" alt="" />
                 </span>
               </div>
-              <h2 className="font-medium text-xl">We Always Growing</h2>
+              <h2 className="font-medium text-base md:text-xl">
+                We Always Growing
+              </h2>
               <p className="text-xs text-wrap w-[65%] mx-auto text-[#A6A6A6]">
-                eget morbi aliquam placerat mattis. Rhoncus nulla urna pretium
+                We are committed to personal and professional development,
+                encouraging innovation and creativity.
               </p>
             </div>
             <div className="flex flex-col mx-auto text-center gap-4">
               <div className="flex mx-auto">
-                <span className="p-4 bg-[#DDDFF4] w-24 rounded-full">
+                <span className="p-4 bg-[#DDDFF4] rounded-full w-16 md:w-24">
                   <img src="envelope.png" className="flex" alt="" />
                 </span>
               </div>
-              <h2 className="font-medium text-xl">We're accessible</h2>
+              <h2 className="font-medium text-base md:text-xl">
+                We&apos;re accessible
+              </h2>
               <p className="text-xs text-wrap w-[65%] mx-auto text-[#A6A6A6]">
-                eget morbi aliquam placerat mattis. Rhoncus nulla urna pretium
+                We aim to create an open and inclusive environment where
+                everyone can easily reach out and communicate.
               </p>
             </div>
           </div>
-          <div className="flex flex-col text-center pb-8">
-            <h1 className="text-5xl  text-wrap font-bold mx-auto leading-snug">
+          <div className="flex flex-col text-center pb-2">
+            <h1 className="text-wrap font-bold mx-auto text-3xl md:text-4xl lg:text-5xl">
               Open Positions
             </h1>
-            <p className="text-sm text-[#A6A6A6] pb-8">
-              eget morbi aliquam placerat mattis. Rhoncus nulla urna pretium
+            <p className="text-[#A6A6A6] pb-8 text-[10px] md:text-xs lg:text-sm">
+              Explore our open roles and be part of our dynamic, inclusive team.
             </p>
-            <div className="flex gap-4 mx-auto">
-              <StylingButton
-                className="bg-[#FED45B] text-xs text-black shadow-md hover:bg-yellow-500"
-                title="Career"
-              />
-              <StylingButton
-                className="bg-[#F4F5F7] text-xs text-black shadow-md hover:bg-yellow-500"
-                title="Internship"
-              />
-            </div>
           </div>
-          <div className="flex bg-[#F1F1F1] p-8 shadow-inner rounded-xl">
+          <div className="flex bg-[#F1F1F1] shadow-inner rounded-xl p-4 md:p-8">
             <Accordion type="single" collapsible className="w-full space-y-4">
               {oprec.map((jobs) => (
                 <AccordionItem
                   key={jobs.id}
                   value={jobs.title}
-                  className="bg-white py-4 px-8 rounded-xl shadow-md"
+                  className="bg-white rounded-xl shadow-md py-2 px-6 md:py-4 md:px-8"
                 >
                   <AccordionTrigger>
                     <div className="flex">
                       <div className="flex flex-col">
-                        <h1 className="font-semibold text-lg me-auto">
+                        <h1 className="font-semibold me-auto text-base md:text-lg">
                           {jobs.title}
                         </h1>
-                        <div className="flex gap-2 text-xs text-[#515151]">
+                        <div className="flex gap-2 text-[#515151] text-[10px] md:text-xs">
                           <p>{jobs.type}</p>
                           <p>|</p>
                           <p>Position : {jobs.position}</p>
@@ -133,7 +131,7 @@ const Career = () => {
                       </div>
                     </div>
                   </AccordionTrigger>
-                  <AccordionContent className="border-t-2 pt-4 space-y-2">
+                  <AccordionContent className="border-t-2 pt-4 space-y-2 text-xs md:text-sm">
                     <p>{jobs.jobdesc}</p>
                     <ol className="ps-4">
                       {jobs.requirements.map((requirement, index) => (
@@ -150,15 +148,16 @@ const Career = () => {
           </div>
         </div>
         <div className="bg-[#FFEDBE] bg-opacity-50">
-          <div className="grid grid-cols-2 py-8 container">
+          <div className="grid container gap-8 py-12 md:py-8 md:grid-cols-2 md:gap-0">
             <div className="flex flex-col place-content-center">
-              <div className="text-balance space-y-4">
-                <h1 className="text-5xl leading-tight font-bold w-[75%]">
-                  Couldn’t Find The Job You Are Looking For?
+              <div className="text-balance space-y-4 text-center md:text-start">
+                <h1 className="font-bold text-3xl md:text-4xl md:leading-tight md:w-2/3 lg:leading-tight lg:text-5xl">
+                  How to apply? <br />
+                  Send your resume to
                 </h1>
-                <p className="font-normal text-sm text-[#5D5C5C]">
-                  Send your resume on{" "}
-                  <span className="font-bold"> adiarko@gmail.com</span>
+                <p className="font-normal text-xs md:text-sm text-[#5D5C5C]">
+                  <span className="font-bold"> hi@adiarko.co.id </span>
+                  with the subject line : [position] - name.
                 </p>
               </div>
             </div>
@@ -169,12 +168,12 @@ const Career = () => {
             </div>
           </div>
         </div>
-        <div className="w-full h-full container pt-40 pb-24">
-          <div className="flex bg-gradient-to-r from-[#FFC93E] to-[#FFCE51] rounded-xl w-full h-72 px-48">
+        <div className="w-full h-full container py-24 lg:py-0 lg:pt-40 lg:pb-24">
+          <div className="flex bg-gradient-to-r from-[#FFC93E] to-[#FFCE51] rounded-xl w-full h-72 md:px-48">
             <div className="flex bg-[url('/rectangle_background.png')] bg-contain">
-              <div className="grid grid-cols-5 gap-x-8 relative -mx-36">
-                <div className="col-span-2 flex">
-                  <h1 className="text-4xl font-extrabold leading-tight my-auto">
+              <div className="grid gap-x-8 relative p-8 md:p-0 md:-mx-36 md:grid-cols-2 lg:grid-cols-5">
+                <div className="flex lg:col-span-2">
+                  <h1 className="font-extrabold my-auto mx-auto text-2xl text-center md:text-start md:text-3xl md:leading-tight lg:leading-tight lg:text-4xl">
                     Let's join us,
                     <br />
                     to achieve a brilliant
@@ -182,35 +181,28 @@ const Career = () => {
                     future
                   </h1>
                 </div>
-                <div className="col-span-1 ">
+                <div className="hidden lg:grid lg:col-span-1">
                   <img src="/dot_shape.png" className="z-10" alt="" />
                   <img
                     src="/icon_people_career.png"
-                    className="w-96 absolute bottom-0 -translate-x-20 z-0"
+                    className="w-96 absolute bottom-0 z-0 -translate-x-20 xl:-translate-x-20"
                     alt=""
                   />
                 </div>
-                <div className="col-span-2 my-auto ps-16">
+                <div className="my-auto lg:col-span-2 lg:ps-16">
                   <div className="flex flex-col gap-4">
-                    <p className="text-[10px] text-wrap text-justify">
-                      Aliquam urna consequat habitant et rhoncus elit eget
-                      consectetur. Ipsum arcu donec consectetur enim quam elit
-                      ac nunc est. Egestas in diam vehicula eu justo
-                      pellentesque cum. Donec accumsan
+                    <p className="text-[10px] text-wrap text-center md:text-justify">
+                      By combining our strengths and working collaboratively, we
+                      can overcome challenges, seize new opportunities, and
+                      create lasting success.
                     </p>
-                    <div className="grid grid-cols-2 gap-4">
-                      <div className="flex flex-col">
+                    <div className="flex mx-auto md:mx-0">
+                      <Link href="/get-started">
                         <StylingButton
-                          className="bg-black w-full text-xs shadow-md hover:bg-yellow-500"
-                          title="Career"
+                          className="bg-black w-full text-xs shadow-md hover:bg-gray-800"
+                          title="Contact Us"
                         />
-                      </div>
-                      <div className="flex flex-col">
-                        <StylingButton
-                          className="bg-[#F4F5F7] w-full text-xs text-black shadow-md hover:bg-yellow-500"
-                          title="Internship"
-                        />
-                      </div>
+                      </Link>
                     </div>
                   </div>
                 </div>

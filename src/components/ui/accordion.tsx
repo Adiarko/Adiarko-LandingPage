@@ -37,14 +37,18 @@ const AccordionTrigger = React.forwardRef<
       <AccordionPrimitive.Trigger
         ref={ref}
         className={cn(
-          "flex flex-1 items-center py-4 gap-4 font-medium transition-all hover:underline [&[data-state=open]>svg]:rotate-180",
+          "flex flex-1 items-center py-4 gap-4 font-medium transition-all [&[data-state=open]>svg]:rotate-180",
           className
         )}
         {...props}
         onClick={handleClick}
       >
         <h1 className="grow">{children}</h1>
-        {isOpen && <Badge className="bg-[#FFC93E] text-black">Detail</Badge>}
+        {isOpen && (
+          <Badge className="bg-[#FFC93E] text-black hidden md:block">
+            Detail
+          </Badge>
+        )}
         <ChevronDown className="h-4 w-4 shrink-0 transition-transform duration-200" />
       </AccordionPrimitive.Trigger>
     </AccordionPrimitive.Header>
