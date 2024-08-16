@@ -176,16 +176,15 @@ const Career = () => {
                   <h1 className="font-extrabold my-auto mx-auto text-2xl text-center md:text-start md:text-3xl md:leading-tight lg:leading-tight lg:text-4xl">
                     Let's join us,
                     <br />
-                    to achieve a brilliant
+                    to achieve a
                     <br />
-                    future
+                    brilliant future
                   </h1>
                 </div>
                 <div className="hidden lg:grid lg:col-span-1">
-                  <img src="/dot_shape.png" className="z-10" alt="" />
                   <img
                     src="/icon_people_career.png"
-                    className="w-96 absolute bottom-0 z-0 -translate-x-20 xl:-translate-x-20"
+                    className="w-[420px] xl:w-[480px] absolute bottom-0 z-0 -translate-x-28 xl:-translate-x-36"
                     alt=""
                   />
                 </div>

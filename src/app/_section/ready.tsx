@@ -12,11 +12,11 @@ const Ready = () => {
           alt=""
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black from-60% rounded-xl">
-          <div className="relative p-6 grid grid-flow-row md:grid-cols-5 md:grid-rows-none md:p-8">
+          <div className="relative p-6 grid grid-flow-row md:grid-cols-5 md:grid-rows-none md:p-12 lg:p-14">
             <div className="hidden md:grid md:col-span-2">
               <img
                 src="/icon_people_2.png"
-                className="w-80 absolute p-2 bottom-0 left-0 -translate-x-8 -translate-y-4 xl:translate-y-0 xl:-translate-x-10"
+                className="w-[420px] absolute p-2 bottom-3 left-0 -translate-x-14 "
                 alt=""
               />
             </div>
