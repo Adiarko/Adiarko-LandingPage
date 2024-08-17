@@ -16,7 +16,7 @@ const Ready = () => {
             <div className="hidden md:grid md:col-span-2">
               <img
                 src="/icon_people_2.png"
-                className="w-[420px] absolute p-2 bottom-3 left-0 -translate-x-14 "
+                className="w-[400px] absolute p-2 bottom-3 left-0 -translate-x-14 "
                 alt=""
               />
             </div>
