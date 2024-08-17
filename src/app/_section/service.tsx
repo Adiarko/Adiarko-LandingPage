@@ -87,7 +87,7 @@ const Service = () => {
                 <CardDescription className="text-xs text-[#A6A6A6] text-balance">
                   Our academy offers hands-on courses in essential computer
                   skills, from basic literacy to advanced programming, preparing
-                  students for successful careers in today's digital world.
+                  students for successful careers in today&apos;s digital world.
                 </CardDescription>
               </CardContent>
               <CardFooter className="flex shrink-0 justify-between">

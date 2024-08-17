@@ -31,7 +31,9 @@ const Portfolio = () => {
           <TabsList className="mx-auto">
             <TabsTrigger value="all">All</TabsTrigger>
             {portfolio.map((tabs) => (
-              <TabsTrigger value={tabs.value}>{tabs.label}</TabsTrigger>
+              <TabsTrigger key={tabs.tabs_id} value={tabs.value}>
+                {tabs.label}
+              </TabsTrigger>
             ))}
           </TabsList>
           <TabsContent value="all">

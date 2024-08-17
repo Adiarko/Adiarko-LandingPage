@@ -28,7 +28,8 @@ const Ready = () => {
                 <p className="text-[#A6A6A6] pb-8 text-[10px] md:text-xs">
                   We&apos;re committed to your success. Contact us today to
                   discover how our digital solutions can transform your business
-                  or enhance your skills. Let's achieve great things together!
+                  or enhance your skills. Let&apos;s achieve great things
+                  together!
                 </p>
                 <Link href="/get-started">
                   <StylingButton
