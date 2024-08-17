@@ -15,7 +15,7 @@ const GetStarted = () => {
           <div className="grid grid-flow-row xl:grid-cols-2 xl:grid-rows-none gap-4">
             <div>
               <form className="flex flex-col gap-4 border-4 rounded-2xl p-8">
-                <h1 className="font-bold text-xl">Let's Grow Together!</h1>
+                <h1 className="font-bold text-xl">Let&apos;s Grow Together!</h1>
                 <p className="pb-4 text-xs">
                   Join us on this journey to boost your business, innovate, and
                   reach new heights. Together, we can achieve more and make a
@@ -69,7 +69,7 @@ const GetStarted = () => {
                   >
                     I agree to receive communications from Scale, and I
                     understand Scale will process my personal information in
-                    accordance with Scale's Privacy Policy.*
+                    accordance with Scale&apos;s Privacy Policy.*
                   </label>
                 </div>
                 <StylingButton

@@ -135,7 +135,7 @@ const Career = () => {
                     <p>{jobs.jobdesc}</p>
                     <ol className="ps-4">
                       {jobs.requirements.map((requirement, index) => (
-                        <li className="flex gap-2">
+                        <li key={index} className="flex gap-2">
                           <p>{index + 1}</p>
                           <p>{requirement}</p>
                         </li>
@@ -174,7 +174,7 @@ const Career = () => {
               <div className="grid gap-x-8 relative p-8 md:p-0 md:-mx-36 md:grid-cols-2 lg:grid-cols-5">
                 <div className="flex lg:col-span-2">
                   <h1 className="font-extrabold my-auto mx-auto text-2xl text-center md:text-start md:text-3xl md:leading-tight lg:leading-tight lg:text-4xl">
-                    Let's join us,
+                    Let&apos;s join us,
                     <br />
                     to achieve a
                     <br />

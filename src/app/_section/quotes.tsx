@@ -44,7 +44,7 @@ const Quotes = () => {
                   <Card className="flex flex-col rounded-2xl pt-8 px-1 shadow-md bg-white group transition ease-in-out duration-300 hover:bg-gradient-to-b hover:from-[#FFC93E] hover:to-[#FFB23E]">
                     <CardContent className="grow">
                       <span className="font-medium text-balance font-serif italic text-xs md:text-sm">
-                        "{thoughts.quote}"
+                        &quot;{thoughts.quote}&quot;
                       </span>
                     </CardContent>
                     <CardFooter className="flex shrink-0 justify-between">
