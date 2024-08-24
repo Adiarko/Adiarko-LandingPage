@@ -41,9 +41,9 @@ const Quotes = () => {
                   key={thoughts.id}
                   className="flex md:basis-3/5 lg:basis-2/5"
                 >
-                  <Card className="flex flex-col rounded-2xl pt-8 px-1 shadow-md bg-white group transition ease-in-out duration-300 hover:bg-gradient-to-b hover:from-[#FFC93E] hover:to-[#FFB23E]">
+                  <Card className="flex flex-col rounded-2xl pt-6 px-1 shadow-md bg-white group transition ease-in-out duration-300 hover:bg-gradient-to-b hover:from-[#FFC93E] hover:to-[#FFB23E]">
                     <CardContent className="grow">
-                      <span className="font-medium text-balance font-serif italic text-xs md:text-sm">
+                      <span className="font-medium text-balance font-serif italic text-[10px] leading-none md:text-xs">
                         &quot;{thoughts.quote}&quot;
                       </span>
                     </CardContent>
@@ -54,7 +54,7 @@ const Quotes = () => {
                         </Avatar>
                         <div className="flex-col">
                           <span className="flex gap-1">
-                            <h2 className="font-semibold text-base md:text-lg">
+                            <h2 className="font-semibold text-sm md:text-base">
                               {thoughts.name}
                             </h2>
                             <BadgeCheck className="w-5 h-5 my-auto fill-sky-500 stroke-white" />
@@ -72,7 +72,7 @@ const Quotes = () => {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <div className="absolute top-80 right-12 ">
+            <div className="absolute -bottom-14 right-12 ">
               <CarouselPrevious className="w-10 h-10 text-2xl rounded-full shadow-md bg-[#1E1E1E] text-[#FEC03C] hover:bg-[#ECB22E] hover:text-white" />
               <CarouselNext className="w-10 h-10 text-2xl rounded-full shadow-md bg-[#1E1E1E] text-[#FEC03C] hover:bg-[#ECB22E] hover:text-white" />
             </div>
