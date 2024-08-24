@@ -100,21 +100,31 @@ const GetStarted = () => {
               </p>
               <div className="flex flex-col text-center gap-8">
                 <p className="text-xs md:text-sm">
-                  We&apos;ve connected with thousands of people around the
-                  globe.
+                  We have<span className="text-[#FFC93E]"> 1000+ </span>
+                  satisfied customers across marketplace
                 </p>
                 <div className="flex flex-col items-center gap-8 md:gap-12">
                   <div className="flex gap-4 h-3 justify-center md:justify-between md:gap-8 md:h-6">
-                    <img src="/axn_vector.png" className="h-full" alt="" />
-                    <img src="/lenovo_logo.png" className="h-full" alt="" />
-                    <img src="/slack_logo.png" className="h-full" alt="" />
-                    <img src="/youtube_vector.png" className="h-full" alt="" />
-                  </div>
-                  <div className="flex gap-4 h-4 justify-center md:justify-between md:gap-8 md:h-7">
-                    <img src="/amazon_vector.png" className="h-full" alt="" />
                     <img src="/google_vector.png" className="h-full" alt="" />
+                    <img src="/meta_vector.png" className="h-full" alt="" />
+                    <img src="/ads_vector.png" className="h-full" alt="" />
+                    <img src="/ebay_vector.png" className="h-full" alt="" />
+                  </div>
+                  <div className="flex gap-4 h-3 justify-center md:justify-between md:gap-8 md:h-6">
+                    <img src="/amazon_vector.png" className="h-full" alt="" />
                     <img
-                      src="/microsoft_vector.png"
+                      src="/tokopedia_vector.png"
+                      className="h-full"
+                      alt=""
+                    />
+                    <img src="/shopee_vector.png" className="h-full" alt="" />
+                    <img src="/facebook_vector.png" className="h-full" alt="" />
+                  </div>
+                  <div className="flex gap-4 h-3 justify-center md:justify-between md:gap-8 md:h-6">
+                    <img src="/tiktok_vector.png" className="h-full" alt="" />
+                    <img src="/youtube_vector.png" className="h-full" alt="" />
+                    <img
+                      src="/instagram_vector.png"
                       className="h-full"
                       alt=""
                     />

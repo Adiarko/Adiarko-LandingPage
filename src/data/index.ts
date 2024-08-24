@@ -3,13 +3,15 @@ export const articles = [
     id: "digital-marketing",
     title: "Digital Marketing",
     image: "/digital_marketing_photo.jpg",
-    content: "lorem12",
+    content:
+      "We enhance your online presence and build strong branding with SEO, social media marketing, content creation, email marketing, and PPC advertising to attract customers and achieve marketing goals.",
   },
   {
     id: "digital-academy",
     title: "Digital Academy",
     image: "/digital_academy_photo.jpg",
-    content: "lorem12",
+    content:
+      "Our academy offers hands-on courses in essential computer skills, from basic literacy to advanced programming, preparing students for successful careers in today's digital world.",
   },
 ];
 
@@ -139,34 +141,18 @@ export const thought = [
   {
     id: 1,
     quote:
-      "Dengan mengikuti program kursus web programming saya dapat memahami bagaimana membuat website dinamis. Suasana kelas yang nyaman dan instruktur ramah membuat saya bersemangat dala......",
-    image: "https://github.com/shadcn.png",
-    name: "Agus Kokoh",
-    role: "Owner Zenmen Barbershop & ShoesCare",
+      "As a new brand, we had no idea where to start with digital marketing. Adiarko guided us every step of the way, from setting up our Google Street View to launching our first Google Ads campaign. They also helped us build a strong digital presence on Instagram, Facebook, YouTube, and TikTok. Thanks to their support, we’ve gone from zero to a growing online brand, and we’re excited about what’s next!",
+    image: "/tono_avatar.jpg",
+    name: "Tono",
+    role: "Founder of Tono Welder",
   },
   {
     id: 2,
     quote:
-      "Setelah Instagram & Facebook dikelola Adiarko insightnya sangat luar biasa, jumlah like dan interaksi langsung meningkat dan pelanggan bertambah, terimakasih Adiarko",
-    image: "https://github.com/shadcn.png",
-    name: "Dedik Setiawan",
-    role: "Owner Zenmen Barbershop & ShoesCare",
-  },
-  {
-    id: 3,
-    quote:
-      "Saya sangat senang kursus disini karena selama kursus saya selalu mendapatkan kemudahan jika bertanya atau mengalami kesulitan pasti dibantu baik oleh instruktur ataupun oleh staf di tempat kursu.........",
-    image: "https://github.com/shadcn.png",
-    name: "Didi Keseleo",
-    role: "Siswa MAN 2 Kota Kediri",
-  },
-  {
-    id: 4,
-    quote:
-      "Dengan mengikuti program kursus web programming saya dapat memahami bagaimana membuat website dinamis. Suasana kelas yang nyaman dan instruktur ramah",
-    image: "https://github.com/shadcn.png",
-    name: "Ali ra Syukur",
-    role: "Mahasiswa",
+      "Before working with Adiarko, our brand had no online presence at all. They helped us get started with Google Street View and guided us through our first Google Ads campaigns. Their expertise also got us up and running on Instagram, Facebook, YouTube, and TikTok. Now, we’re not just online—we’re connecting with our customers in ways we never thought possible. We’re grateful for their help in bringing our brand into the digital age!",
+    image: "/ihsan_avatar.jpeg",
+    name: "Ihsan",
+    role: "Owner of Pukis Station",
   },
 ];
 
