@@ -25,8 +25,7 @@ const Service = () => {
           Boost your online presence and computer skills.
         </h1>
         <p className="text-[#A6A6A6] text-wrap col-span-1 text-xs text-center md:text-start md:text-sm md:col-span-3 md:ms-12 lg:ms-20 lg:col-span-4">
-          We specialize in digital marketing and our Digital Academy. Our
-          digital marketing services boost online presence, build strong
+          Our digital marketing services boost online presence, build strong
           branding, and attract customers through SEO, social media, content
           creation, email marketing, and PPC advertising. Our Digital Academy
           offers courses from basic computer literacy to advanced programming,
@@ -41,7 +40,7 @@ const Service = () => {
       </div>
       <div className="flex gap-8 justify-center flex-col md:flex-row">
         <div className="flex mx-auto md:mx-0">
-          <Link href="/digital-marketing" className="flex">
+          <Link href="#" className="flex">
             <Card className="flex flex-col rounded-xl w-72 shadow-md text-center group md:text-start">
               <CardHeader className="flex">
                 <div className="flex mx-auto md:mx-0">
@@ -71,7 +70,7 @@ const Service = () => {
           </Link>
         </div>
         <div className="flex mx-auto md:mx-0">
-          <Link href="/digital-academy">
+          <Link href="#">
             <Card className="flex flex-col rounded-xl w-72 shadow-md text-center group md:text-start">
               <CardHeader className="flex">
                 <div className="flex mx-auto md:mx-0">
@@ -99,6 +98,45 @@ const Service = () => {
             </Card>
           </Link>
         </div>
+      </div>
+      <div className="justify-center flex py-4">
+        <div className="flex flex-col gap-4">
+          <h2 className="font-semibold text-center text-lg md:text-2xl">
+            Our Partner
+          </h2>
+          <span className="text-[#A6A6A6] text-xs text-center md:text-sm">
+            In case you need something else like <br /> software for
+            optimization or even an AI
+          </span>
+        </div>
+      </div>
+      <div className="flex justify-center mx-auto md:mx-0">
+        <Link href="https://www.berdaya.ai/">
+          <Card className="flex flex-col rounded-xl w-72 shadow-md text-center group md:text-start">
+            <CardHeader className="flex">
+              <div className="flex mx-auto md:mx-0">
+                <span className="p-4 rounded-full bg-[#F2FBF8]">
+                  <img src="/berdaya_logo.png" className="w-8" alt="" />
+                </span>
+              </div>
+            </CardHeader>
+            <CardContent className="flex-col grow space-y-4">
+              <CardTitle className="text-lg font-semibold">
+                Berdaya.AI
+              </CardTitle>
+              <CardDescription className="text-xs text-[#A6A6A6] text-balance">
+                We empower businesses to scale using AI solutions, uniquely
+                tailored to drive your growth and efficiency.
+              </CardDescription>
+            </CardContent>
+            <CardFooter className="flex shrink-0 justify-between">
+              <span className="flex gap-4 cursor-pointer py-1 transition ease-in-out duration-300 mx-auto md:mx-0 group-hover:px-2 group-hover:bg-[#F2FBF8] group-hover:rounded-full">
+                <p className="text-[#39AC86] text-xs">See more</p>
+                <MoveRight className="my-auto text-[#39AC86] w-3 h-3" />
+              </span>
+            </CardFooter>
+          </Card>
+        </Link>
       </div>
     </section>
   );
